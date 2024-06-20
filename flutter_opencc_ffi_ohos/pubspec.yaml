@@ -1,0 +1,30 @@
+name: flutter_opencc_ffi_ohos
+description: A new Flutter FFI plugin project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+  flutter: ">=2.11.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_opencc_ffi_platform_interface:
+    path: ../flutter_opencc_ffi_platform_interface
+  flutter_opencc_ffi_native:
+    path: ../flutter_opencc_ffi_native
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  plugin:
+    implements: flutter_opencc_ffi
+    platforms:
+      ohos:
+        ffiPlugin: true
+#          pluginClass: FlutterOpenccFfiPlugin
