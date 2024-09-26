@@ -21,7 +21,11 @@ dependencies:
     sdk: flutter
 #  flutter_opencc_ffi_platform_interface: ^0.0.3
   flutter_opencc_ffi_platform_interface:
-    path: ../flutter_opencc_ffi_platform_interface
+    git:
+      url: https://github.com/banlang222/flutter_opencc_ffi.git
+      path: flutter_opencc_ffi_platform_interface
 #  flutter_opencc_ffi_native: ^0.0.3
   flutter_opencc_ffi_native:
-    path: ../flutter_opencc_ffi_native
+    git:
+      url: https://github.com/banlang222/flutter_opencc_ffi.git
+      path: flutter_opencc_ffi_native
